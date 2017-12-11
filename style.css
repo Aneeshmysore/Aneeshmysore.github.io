@@ -1,0 +1,132 @@
+@supports (grid-area:auto) {
+	body {
+		display: grid;
+		grid-template-columns: 350px 800px 350px;
+		grid-template-rows: 350px 100px 70px 100px 60px 350px;
+		background-color: rgb(218, 211, 211);
+		justify-content: center; 
+		grid-template-areas: 
+			"IlliniPic Name MyPic"
+			". Message ."
+			". AbtMe ."
+			". journey ."
+			" . links ."
+			"balloon finally contact"
+			
+		}
+
+	#ipic {
+		grid-area: IlliniPic;
+		border: 5px solid black;
+		
+	}
+	
+	#ipic img {
+		height: 340px;
+		width: 340px;	
+	}
+
+	#name {
+		grid-area: Name;
+	}
+
+	#name h1 {
+		font-family: Arial;
+		font-size: 70px;
+		color: blue;
+	  	text-align: center;
+	}
+
+	#aneepic {
+		grid-area: MyPic;
+		
+	}
+
+	#aneepic img {
+		height: 340px;
+		width: 280px;
+		border: 5px solid black;
+	}
+
+	#school {
+		grid-area: Name;
+	}
+
+	#school h1 { 
+		font-family: Arial;
+		font-size: 30px;
+		color: orange;
+	  	text-align: left;
+	}
+
+	#descrip {
+		grid-area: Message;
+	}
+
+	#descrip h1 {
+		font-family: Arial;
+		font-size: 30px;
+	  	text-align: center;
+	}
+
+	#tags {
+		grid-area: AbtMe;
+	}
+
+	#tags h1 {
+		font-family: Arial;
+		font-size: 30px;
+		text-align: center;
+		vertical-align: baseline; 	  
+	}
+	
+	#bruh {
+		grid-area: journey;
+	}
+
+	#bruh h1 {
+		font-family: Arial;
+		font-size: 30px;
+		text-align: center;
+		vertical-align: baseline; 	
+	}
+
+	#accounts {
+		grid-area: links;
+	}
+
+	#contactinfo {
+		grid-area: finally;
+	}
+
+	#contactinfo h1{
+		font-family: Arial;
+		font-size: 30px;
+		text-align: center;
+		vertical-align: baseline; 	
+	}
+
+	#c {
+		grid-area: contact; 
+	}
+
+	#c p{
+		font-family: Arial;
+		font-size: 25px;
+		text-align: center;
+		vertical-align: baseline; 
+		color: red;
+	}
+
+	#ballo {
+		grid-area: balloon;
+	}
+
+	#ballo img{
+		height: 340px;
+		width: 340px;
+		border: 5px solid black;
+	}
+
+	
+}

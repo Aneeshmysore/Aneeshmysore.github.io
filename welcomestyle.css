@@ -1,0 +1,260 @@
+@supports(grid-area: auto){
+    body{
+        display: grid;
+        grid-template-columns: 330px 500px 500px;
+        grid-template-rows: 110px 55px 200px 60px 220px 60px 200px 110px 60px 350px 60px 250px 60px 170px;
+        justify-content: center;
+        background-color: rgb(218,211,211);
+        grid-template-areas: 
+        ". Edu ."
+        ". a ."
+        "Findley b ."
+        ". c ."
+        "Stoller d ."
+        ". e ."
+        "Westview f ."
+        ". Interests ."
+        ". g ."
+        "Cube h ."
+        ". i ."
+        "Swimming j ."
+        ". k ."
+        "Music l ."
+    }
+
+    #education {
+        grid-area: Edu;
+    }
+
+    #education h1 {
+        font-family: Arial;
+		font-size: 60px;
+		color: blue;
+	  	text-align: center;
+        text-decoration: underline;
+    }
+
+    #school {
+        grid-area: a;
+    }
+
+    #school h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+       
+    }
+    
+    #imgone {
+        grid-area: Findley;
+    }
+
+    #imgone img {
+        height: 190px;
+        width: 190px;
+        border: 5px solid black;
+        text-align: center;
+      
+    }
+
+    #descr {
+        grid-area: b;
+    }
+
+    #descr p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+
+    #name {
+        grid-area: c;
+    }
+
+    #name h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #imgtwo {
+        grid-area: Stoller;
+    }
+
+    #imgtwo img {
+        height: 190px;
+        width: 190px;
+        border: 5px solid black;
+    }
+
+    #stoller {
+        grid-area: d;
+    }
+
+    #stoller p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+
+    
+    #westview {
+        grid-area: e;
+    }
+
+    #westview h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #imgthree {
+        grid-area: Westview;
+    }
+
+    #imgthree img {
+        height: 190px;
+        width: 190px;
+        border: 5px solid black;
+    }
+
+    #exp {
+        grid-area: f;
+    }
+
+    #exp p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+
+    #titleagain {
+        grid-area: Interests;
+    }
+
+    #titleagain h1 {
+        font-family: Arial;
+		font-size: 60px;
+		color: blue;
+	  	text-align: center;
+        text-decoration: underline;
+    }
+
+    #nice {
+        grid-area: g;
+    }
+
+    #nice h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #imgfour {
+        grid-area: Cube;
+    }
+
+    #imgfour img {
+        height: 220px;
+        width: 230px;
+        border: 5px solid black;
+        text-align: center;
+      
+    }
+
+    #yay {
+        grid-area: h;
+    }
+
+    #yay p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+       
+    }
+
+    #swim {
+        grid-area: i;
+    }
+
+    #swim h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #imgfive {
+        grid-area: Swimming;
+    }
+
+    #imgfive img {
+        height: 190px;
+        width: 190px;
+        border: 5px solid black;
+    }
+
+    #writing {
+        grid-area: j;
+    }
+
+    #writing p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+
+    
+    #sing {
+        grid-area: k;
+    }
+
+    #sing h1 {
+        font-family: Arial;
+		font-size: 30px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #imgsix{
+        grid-area: Music;
+    }
+
+    #imgsix img {
+        height: 160px;
+        width: 200px;
+        
+    }
+
+    #finaldescr {
+        grid-area: l;
+    }
+
+    #finaldescr p {
+        font-family: Arial;
+		font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+
+}
