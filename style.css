@@ -54,9 +54,12 @@
 
 	#school h1 { 
 		font-family: Arial;
-		font-size: 30px;
+		font-size: 35px;
 		color: orange;
-	  	text-align: left;
+	  	text-align: center;
+		position: relative;
+    	top: 150px;
+		
 	}
 
 	#descrip {
